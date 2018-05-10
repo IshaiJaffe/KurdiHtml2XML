@@ -3,10 +3,10 @@ function cleanName(name) {
     return name.trim().replace(/^[:[\]\s]+/g, '').replace(/[:[\]\s]+$/g, '').replace(/[:[\]\s]+/g, '_');
 }
 function run() {
-    if(!process.argv[0].includes('kurdi')){
-        console.error('program must be kurdi');
-        return false;
-    }
+    //if(!process.argv[0].includes('kurdi')){
+    //    console.error('program must be kurdi');
+    //    return false;
+    //}
     const sourceFile = process.argv[2];
     if(!sourceFile) {
         console.error("no source file given");
