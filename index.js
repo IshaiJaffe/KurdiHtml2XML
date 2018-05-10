@@ -70,7 +70,8 @@ function run() {
     return true;
 }
 
-if(run()){
+if(!run()){
+    console.error("exit with failure");
     process.exit(1);
 } else {
     console.log('done');
