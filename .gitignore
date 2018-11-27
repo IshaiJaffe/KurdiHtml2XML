@@ -59,6 +59,5 @@ typings/
 
 .idea
 *.htm
-*.exe
 *.xml
 *.zip
